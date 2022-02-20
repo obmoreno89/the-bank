@@ -290,3 +290,43 @@
     width: 31%;
   }
 }
+
+@media (max-width: 412px) {
+  .container--input input {
+    margin-top: 6px;
+    margin-right: -25px;
+  }
+  .cash {
+    margin-left: 214px;
+  }
+  .container-info {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 914px) {
+  .container--nav h4 {
+    width: 40%;
+  }
+  .container--input {
+    margin-right: 30px;
+  }
+  .container-movements {
+    width: 90%;
+    margin-left: 35px;
+  }
+  .container-operations {
+    width: 90%;
+    margin-left: -20px;
+  }
+  .container {
+    margin-left: 45px;
+  }
+  .container-info {
+    width: 95%;
+    margin-left: 25px;
+  }
+  body.dark a:hover::before {
+    transform: scaleX(0);
+  }
+}

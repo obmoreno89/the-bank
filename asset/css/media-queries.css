@@ -722,3 +722,115 @@
     width: 70%;
   }
 }
+
+@media (max-width: 412px) {
+  .container--nav .menu {
+    bottom: 5px;
+  }
+  .container-nav-menu ul {
+    min-width: 450px;
+  }
+  .container--input input {
+    margin-top: 4px;
+  }
+  .container-main {
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container-main h1 {
+    width: 100%;
+  }
+  .container-main h3 {
+    width: 100%;
+  }
+  .img-operation {
+    margin-left: 25px;
+  }
+  .container-features-description .icon {
+    top: 35px;
+    right: -125px;
+  }
+  .container-features .container-features-info-img .icon-1 {
+    right: -190px;
+  }
+  .container-features-description h4 {
+    margin-left: 1px;
+  }
+  .container-features-description p {
+    margin-left: 1px;
+    width: 100%;
+  }
+  .container-features-info img {
+    width: 100%;
+  }
+  .container-second {
+    width: 100%;
+  }
+  .container-features-description .icon-wifi {
+    right: -258px;
+    top: 29px;
+  }
+}
+
+@media (max-width: 914px) {
+  .container-nav-menu ul {
+    margin-left: 180px;
+  }
+  .container-main h1 {
+    margin-top: 55px;
+  }
+  .container-main h3 {
+    text-align: center;
+    line-height: 29px;
+  }
+  .container-features-info img {
+    width: 93%;
+  }
+  .container-features-description {
+    margin-top: -45px;
+  }
+  .container-features-description p {
+    margin-left: 5px;
+  }
+  .container-features-description .icon {
+    width: 13%;
+    position: relative;
+    right: -135px;
+    top: 35px;
+  }
+  .container-features-description .icon {
+    right: -140px;
+    top: 42px;
+  }
+  .container-features .container-features-info-img .icon-1 {
+    position: relative;
+    right: -195px;
+    top: 35px;
+  }
+  .container-second {
+    width: 100%;
+  }
+  .container-features .container-features-info-img .icon-1 {
+    position: relative;
+    right: -218px;
+    top: 35px;
+  }
+  .container-features-description .icon-wifi {
+    width: 12%;
+    position: relative;
+    right: -294px;
+    top: 33px;
+  }
+  .container-operation .container-operation-info {
+    width: 85%;
+  }
+  .container-features h1 {
+    width: 75%;
+    font-size: 5rem;
+  }
+  .container-operation h1 {
+    font-size: 5rem;
+  }
+}
