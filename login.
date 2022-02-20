@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./asset/css/login.css" />
+    <title>Iniciar sesion</title>
+  </head>
+  <body>
+    <nav class="container--nav">
+      <img src="./asset/icon/logo.png" alt="logo" />
+      <div class="container-nav-menu">
+        <ul class="container-nav-menu-list">
+          <a class="nav-link" href="index.html">Pagina principal</a>
+          <a class="nav-link" href="login.html">Ingresar</a>
+        </ul>
+      </div>
+      <div class="container--input">
+        <input type="checkbox" id="toggle--button" />
+        <label for="toggle--button">
+          <div class="sun-moon"></div>
+        </label>
+      </div>
+    </nav>
+    <main>
+      <section class="container-login">
+        <div class="container-login-title">
+          <h1>Inicia sesion con tu cuenta <span>the bank</span></h1>
+        </div>
+        <section class="container-login-form">
+          <form class="form-login">
+            <div class="form-img">
+              <img src="./asset/icon/user.png" alt="usuario" />
+            </div>
+            <div class="container-input">
+              <input
+                type="text"
+                class="login-username"
+                placeholder="Username"
+              />
+              <input
+                type="password"
+                class="login-password"
+                placeholder="Password"
+              />
+              <button class="button-login">Iniciar sesion</button>
+            </div>
+            <div class="form-title">
+              <p class="invalid"></p>
+              <p>Perdiste la contrasena</p>
+              <p>No tienes cuenta ¿Registrate?</p>
+            </div>
+          </form>
+        </section>
+      </section>
+    </main>
+    <footer>
+      <section class="footer-info">
+        <div class="footer-link">
+          <ul>
+            <li><a href="#">Acerca de...</a></li>
+            <li><a href="#">Fijacion de precios</a></li>
+            <li><a href="#">Terminos de uso</a></li>
+            <li><a href="#">Politica de privacidad</a></li>
+            <li><a href="#">Carreras</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Concactenos</a></li>
+          </ul>
+          <figure class="footer-img">
+            <img src="./asset/icon/logo.png" alt="logo" />
+          </figure>
+          <div class="footer-text">
+            <p>
+              © Copyright de <span>Omar Barragan</span>. No reclamar como su
+              propio producto.
+            </p>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <script src="./dark-mode.js"></script>
+    <script src="./login.js" type="module"></script>
+    <script src="./createName.js" type="module"></script>
+  </body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./asset/css/operation.css" />
+    <link rel="stylesheet" href="./asset/css/media-operation.css" />
+
+    <title>💰 The bank</title>
+  </head>
+  <body>
+    <nav class="container--nav">
+      <a href="./index.html"><img src="./asset/icon/logo.png" alt="logo" /></a>
+      <h4 class="welcome-text invalid">
+        Inicia sesion con tu cuenta <span>the bank</span>
+      </h4>
+      <form class="container-login">
+        <input
+          type="text"
+          placeholder="Username"
+          class="login-username login__input--user"
+        />
+        <!-- In practice, use type="password" -->
+        <input
+          type="password"
+          placeholder="PIN"
+          maxlength="4"
+          class="login-password login__input--pin"
+        />
+        <button class="button-login">Ingresar</button>
+      </form>
+      <div class="container--input">
+        <input type="checkbox" id="toggle--button" />
+        <label for="toggle--button">
+          <div class="sun-moon"></div>
+        </label>
+      </div>
+    </nav>
+    <main class="operation-main">
+      <section>
+        <div class="container">
+          <p class="current">Saldo actual</p>
+          <p class="date">10/02/2022</p>
+        </div>
+        <p class="cash">$0,00</p>
+      </section>
+      <section class="container-main-form">
+        <section class="container-movements">
+          <div class="container-pay movements-deposit">
+            <div class="movement-deposito">Deposito 1</div>
+            <div class="deposit-cash">200</div>
+          </div>
+          <div class="container-pay movements-pay">
+            <div class="movement-pago">Pago 1</div>
+            <div class="pay-cash">-100</div>
+          </div>
+        </section>
+        <section class="container-operations">
+          <div class="container-title-transfer">
+            <h4>Transferir dinero</h4>
+          </div>
+          <form class="container-forms">
+            <input type="text" class="destination" />
+            <input type="number" class="deposit" />
+            <button class="button-transfer button-operation">Enviar</button>
+            <label class="label-text">Transferir...</label>
+            <label>Cantidad</label>
+          </form>
+          <div class="container-title-transfer">
+            <h4>Pedir un prestamo</h4>
+          </div>
+          <form class="container-forms-loarn">
+            <input type="number" class="loan" />
+            <button class="button-transfer button-loan">Enviar</button>
+            <label class="text-loan">Cantidad</label>
+          </form>
+          <div class="container-title-transfer">
+            <h4>Cerrar cuenta</h4>
+          </div>
+          <form class="container-forms-closed">
+            <input type="text" class="close-user" />
+            <input type="password" class="close-pass" />
+            <button class="button-transfer button-close">Enviar</button>
+            <label class="text-user">Usuario</label>
+            <label class="text-password">Password</label>
+          </form>
+        </section>
+      </section>
+      <section class="container-info">
+        <p class="title">Entrada:</p>
+        <p class="date-in">$ 0,00</p>
+        <p class="title">Salida:</p>
+        <p class="date-out">$ 0,00</p>
+        <p class="title">Interes:</p>
+        <p class="date-in date-interest">$ 0,00</p>
+        <button class="button-sort">Clasificar</button>
+        <p class="info-closed">
+          Seras desconectado en: <span class="time">05:00</span>
+        </p>
+      </section>
+    </main>
+    <script src="./dark-mode.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>

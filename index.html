@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./asset/css/media-queries.css">
+    
+    <title>💰 The bank</title>
+  </head>
+  <body>
+    <nav class="container--nav spicky">
+      <img src="./asset/icon/logo.png" alt="logo" />
+      <a href="#" class="menu"><img class="menu" src="./asset/icon/menu.svg" alt="menu"></a>
+
+      <div class="container-nav-menu">
+        <ul class="container-nav-menu-list menu-list">
+          <a class="nav-link" href="#section--1">Caracteristicas</a>
+          <a class="nav-link" href="#section--2">Operaciones</a>
+          <a class="nav-link" href="#section--3">Testimonios</a>
+          <a class="nav-link" href="operation.html">Ingresar</a>
+        </ul>
+      </div>
+      <div class="container--input">
+        <input type="checkbox" id="toggle--button" />
+        <label for="toggle--button">
+          <div class="sun-moon"></div>
+        </label>
+      </div>
+    </nav>
+    <main>
+      <section class="container-main">
+        <h1>Realiza <span>operaciones</span> sin salir de <span>casa</span></h1>
+        <h3>
+          Una experiencia bancaria mas sencilla para un vida mas sencilla.
+        </h3>
+        <img
+          src="./asset/img/operation.jpg"
+          class="img-operation"
+          alt="card and computer"
+        />
+      </section>
+      <section class="container-features" id="section--1">
+        <h3>CARACTERISTICAS</h3>
+        <h1>Todo lo que necesitas en un banco moderno.</h1>
+        <div class="container-features-info">
+          <img src="./asset/img/person.jpg" alt="persona con laptop" />
+          <div class="container-features-description">
+            <img
+              src="./asset/icon/internet.png"
+              class="icon"
+              alt="icono wifi"
+            />
+            <h4>100% digital</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+              nemo expedita ex dignissimos ab fugiat soluta culpa modi neque
+              omnis aspernatur architecto, quidem doloribus delectus adipisci
+              aut iusto, perferendis quia?
+            </p>
+          </div>
+        </div>
+        <div class="container-features-info-img">
+          <div class="container-features-description">
+            <img src="./asset/icon/up.png" class="icon-1" alt="icono grafica" />
+            <h4>Ve tu dinero crecer</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+              nemo expedita ex dignissimos ab fugiat soluta culpa modi neque
+              omnis aspernatur architecto, quidem doloribus delectus adipisci
+              aut iusto, perferendis quia?
+            </p>
+          </div>
+          <img
+            src="./asset/img/up.jpg"
+            class="container-second"
+            alt="graficas"
+          />
+        </div>
+        <div class="container-features-info">
+          <img src="./asset/img/card.jpg" alt="persona con laptop" />
+          <div class="container-features-description">
+            <img src="./asset/icon/card.png" class="icon icon-wifi" alt="icono wifi" />
+            <h4>Tarjeta de debito incluida</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+              nemo expedita ex dignissimos ab fugiat soluta culpa modi neque
+              omnis aspernatur architecto, quidem doloribus delectus adipisci
+              aut iusto, perferendis quia?
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="container-operation" id="section--2">
+        <h3>OPERACIONES</h3>
+        <h1>Todo lo mas simple posible.</h1>
+        <div class="container-button">
+          <button class="button-1">Transferencia instantanea</button>
+          <button class="button-2">Prestamo instantaneo</button>
+          <button class="button-3">Cierre instantaneo</button>
+        </div>
+        <div class="container-operation-info " id="info1">
+          <h2>
+            ¡Transfiere dinero a cualquier persona, al instante! Sin cargos.
+          </h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste
+            delectus voluptatum rem a, sit officia porro eos dicta nam
+            repudiandae consectetur magni neque aliquid, non, illo reprehenderit
+            quia incidunt tenetur!
+          </p>
+        </div>
+        <div class="container-operation-info  hide" id="info2">
+          <h2>
+            Compra una casas o haz tus suenos realidad, con prestamos
+            instantaneos.
+          </h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste
+            delectus voluptatum rem a, sit officia porro eos dicta nam
+            repudiandae consectetur magni neque aliquid, non, illo reprehenderit
+            quia incidunt tenetur!
+          </p>
+        </div>
+        <div class="container-operation-info hide" id="info3">
+          <h2>
+            ¿Ya no necesitas tu cuenta? ¡No hay problema! Ciérralo al instante.
+          </h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste
+            delectus voluptatum rem a, sit officia porro eos dicta nam
+            repudiandae consectetur magni neque aliquid, non, illo reprehenderit
+            quia incidunt tenetur!
+          </p>
+        </div>
+      </section>
+      <div class="container-operation operation3" id="section--3">
+        <h3>¿NO ESTOY SEGURO TODAVIA?</h3>
+        <h1>Millones de banqueros ya estan simplificando sus vidas.</h1>
+
+        <section class="slider">
+          <div class="container-slider container">
+          <img
+            src="./asset/icon/arrow-left.png"
+            class="slider-arrow"
+            id="before"
+            alt="arrow left"
+          />
+          <div class="slider-body slider-body-show" data-id="1">
+            <div class="slider-text">
+              <h2 class="subtitle">¡La mejor decision financiera de la historia!</h2>
+              <p class="slider-rewiew">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non
+                deserunt, inventore similique corrupti explicabo sunt ex, minus
+                quaerat voluptatum quo nobis maxime! Architecto consequatur
+                consectetur nulla nihil saepe perferendis facere. 
+              </p>
+            </div>
+            <figure class="slider-picture">
+              <img
+                src="./asset/img/person1.jpg"
+                class="slider-img"
+                alt="persona"
+              />
+            </figure>
+          </div>
+          <div class="slider-body" data-id="2">
+            <div class="slider-text">
+              <h2 class="subtitle">El ultimo paso para convertirte en un minimalista completo</h2>
+              <p class="slider-rewiew">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non
+                deserunt, inventore similique corrupti explicabo sunt ex, minus
+                quaerat voluptatum quo nobis maxime! Architecto consequatur
+                consectetur nulla nihil saepe perferendis facere.
+              </p>
+            </div>
+            <figure class="slider-picture">
+              <img
+                src="./asset/img/person2.jpg"
+                class="slider-img"
+                alt="persona"
+              />
+            </figure>
+          </div>
+          <div class="slider-body" data-id="3">
+            <div class="slider-text">
+              <h2 class="subtitle">Finalmente libre de los bancos de la vieja escuela</h2>
+              <p class="slider-rewiew">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non
+                deserunt, inventore similique corrupti explicabo sunt ex, minus
+                quaerat voluptatum quo nobis maxime! Architecto consequatur
+                consectetur nulla nihil saepe perferendis facere.
+              </p>
+            </div>
+            <figure class="slider-picture">
+              <img
+                src="./asset/img/person3.jpg"
+                class="slider-img"
+                alt="persona"
+              />
+            </figure>
+          </div>
+          <img
+            src="./asset/icon/arrow-right.png"
+            class="slider-arrow"
+            id="after"
+            alt="arrow right"
+          />
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section class="footer">
+        <div class="footer-title">
+          <h1>El mejor dia para unirse, el moderno banco ¡Que esperas para unirte! </h1>
+          <button class="footer-button" id="footer-button">Abre tu cuenta gratis hoy</button>
+        </div>
+      </section>
+      <section class="footer-info">
+        <div class="footer-link">
+          <ul>
+            <li> <a href="#">Acerca de...</a></li>
+            <li><a href="#">Fijacion de precios</a></li>
+            <li><a href="#">Terminos de uso</a></li>
+            <li><a href="#">Politica de privacidad</a></li>
+            <li><a href="#">Carreras</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Concactenos</a></li>
+          </ul>
+          <figure class="footer-img">
+            <img src="./asset/icon/logo.png" alt="logo" />
+          </figure>
+          <div class="footer-text">
+            <p>© Copyright de <span>Omar Barragan</span>. No reclamar como su propio producto.</p>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <section class="container-modal hidden">
+       <div class="container-closer">
+         <button class="button-closer" id="closer"><img src="./asset/icon/Close.svg" alt="X"></button>
+       </div>
+       <div class="container-modal-title">
+         <h2>Abre tu cuenta en menos de <span>5 minutos</span></h2>
+       </div>
+         <form class="container-form">
+           <label>Nombre</label>
+           <input type="text">
+           <label>Apellidos</label>
+           <input type="text">
+           <label>Direccion</label>
+           <input type="text">
+         </form>
+         <div class="container-button-form">
+          <button class="button-form" id="form">Siguiente paso</button>
+         </div>
+    </section>
+    <div class="overlay hidden"></div>
+    <script src="modalRegister.js"></script>
+    <script src="slider.js"></script>
+    <script src="modalOperation.js"></script>
+    <script src="./dark-mode.js"></script>
+    
+  </body>
+</html>

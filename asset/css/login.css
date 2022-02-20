@@ -1,0 +1,119 @@
+.container-nav-menu ul {
+  width: 432px;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 700px;
+}
+
+.container-login-title h1 {
+  width: 100%;
+  font-size: 5.5rem;
+  color: var(--dark-2);
+  border-bottom: 1px var(--light-2) solid;
+  line-height: 70px;
+  text-align: center;
+}
+
+body.dark .container-login-title h1 {
+  border-bottom: 1px var(--dark-1) solid;
+}
+
+.container-login-title span {
+  color: var(--green);
+}
+
+.container-login-form {
+  width: 43%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px 10px 10px 10px;
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 8px 15px 0 rgba(23, 23, 24, 0.37);
+  backdrop-filter: blur(9px);
+  -webkit-backdrop-filter: blur(9px);
+}
+.form-login {
+  width: 100%;
+  display: grid;
+  grid-template-rows: 1fr 1fr 0.8fr;
+}
+
+.container-login-form .form-img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-login-form img {
+  width: 95px;
+  height: 95px;
+}
+
+.container-login-form .container-input {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-login-form .container-input input {
+  width: 60%;
+  height: 45px;
+  margin-bottom: 10px;
+  border: 0.5px var(--light-2) solid;
+  border-radius: 10px 10px 10px 10px;
+  font-size: 2rem;
+  text-align: center;
+  padding: 11px 45px 12px 40px;
+}
+
+body.dark .container-login-form .container-input input {
+  border: 0.5px var(--dark-2) solid;
+}
+
+.container-login-form .container-input button {
+  width: 45%;
+  height: 50px;
+  border: none;
+  border-radius: 10px 10px 10px 10px;
+  font-family: "Dongle", sans-serif;
+  font-size: 3rem;
+  background-color: var(--green);
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.container-login-form .form-title {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-login-form .form-title p {
+  color: var(--dark-2);
+  font-size: 3rem;
+  line-height: 30px;
+}
+.container-login-form .form-title .invalid {
+  color: red;
+  font-size: 4rem;
+  line-height: 30px;
+}
+
+.footer-info {
+  margin-top: 50px;
+}
+
+.container-login {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

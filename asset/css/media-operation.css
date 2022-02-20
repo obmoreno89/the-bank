@@ -1,0 +1,292 @@
+@media (max-width: 1024px) {
+  .container--nav img {
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+  }
+  .container--nav h4 {
+    width: 65%;
+    font-size: 3rem;
+    margin-left: 15px;
+    margin-top: -20px;
+  }
+  .container-login {
+    margin-left: 1px;
+    margin-top: -21px;
+  }
+  .container--input {
+    margin-right: 15px;
+    margin-top: -20px;
+  }
+  .container--input input {
+    margin-top: 10px;
+  }
+  .container {
+    width: 75%;
+    font-size: 4rem;
+    margin-top: 50px;
+    margin-left: 95px;
+  }
+  .container .date {
+    font-size: 2.7rem;
+    margin-left: 5px;
+    line-height: 45px;
+  }
+  .cash {
+    font-size: 4.5rem;
+    margin-left: 685px;
+  }
+  .container-movements {
+    width: 80%;
+    margin-left: 90px;
+  }
+  .container-operations {
+    width: 80%;
+    margin-left: -80px;
+  }
+  .container-forms-loarn input {
+    margin-right: 10px;
+  }
+  .container-main-form {
+    justify-items: center;
+  }
+  .container-info {
+    width: 85%;
+    margin-left: 75px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container--nav h4 {
+    width: 58%;
+    margin-left: 7px;
+  }
+  .container-login input {
+    width: 25%;
+    height: 30px;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  .container-login button {
+    width: 50px;
+    height: 25px;
+    font-size: 1.7rem;
+  }
+  .container--input label {
+    height: 25px;
+    width: 70px;
+  }
+  label .sun-moon {
+    height: 20px;
+    width: 20px;
+  }
+  .container {
+    font-size: 3.5rem;
+    margin-left: 45px;
+  }
+  .container .date {
+    font-size: 2.2rem;
+    margin-left: 12px;
+  }
+  .cash {
+    font-size: 4rem;
+    margin-left: 550px;
+    transform: translateY(-105%);
+  }
+  .container-movements {
+    width: 95%;
+    margin-left: 65px;
+  }
+  .container-operations {
+    width: 80%;
+    margin-left: -14px;
+  }
+  .container-forms input {
+    width: 75%;
+    font-size: 1.5rem;
+  }
+  .container-forms .button-transfer {
+    margin-right: 10px;
+  }
+  .container-operations {
+    font-size: 2rem;
+  }
+  .container-forms-loarn input {
+    margin-left: 10px;
+    width: 100px;
+  }
+  .container-forms-closed input {
+    width: 80%;
+    font-size: 1.5rem;
+  }
+  .container-forms-closed .button-transfer {
+    margin-right: 10px;
+  }
+  .container-info .title {
+    font-size: 2rem;
+  }
+  .container-info .date-in {
+    font-size: 2.5rem;
+  }
+  .container-info {
+    width: 90%;
+    margin-left: 40px;
+  }
+  .container-info .date-out {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 561px) {
+  .container--nav {
+    flex-direction: column;
+  }
+  .container--nav h4 {
+    width: 100%;
+    text-align: center;
+  }
+  .container--input {
+    position: absolute;
+    top: 35px;
+    right: 5px;
+  }
+  .container-login {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .container-login input {
+    width: 35%;
+  }
+  .container-login button {
+    width: 60px;
+    height: 25px;
+    margin-top: 2px;
+    font-size: 1.7rem;
+  }
+  .container {
+    margin-left: 50px;
+  }
+  .cash {
+    margin-left: 350px;
+  }
+  .container-main-form {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .container-operations {
+    width: 85%;
+    margin-left: 1px;
+  }
+  .container-forms-loarn input {
+    margin-left: 20px;
+    width: 145px;
+  }
+  .container-forms-loarn {
+    justify-items: start;
+  }
+  .text-loan {
+    margin-left: 60px;
+  }
+  .container-operations {
+    font-size: 2.5rem;
+  }
+  .container-movements {
+    width: 85%;
+    margin-left: 1px;
+    margin-top: 20px;
+  }
+  .container-info {
+    flex-direction: column;
+  }
+  .container-info .title {
+    font-size: 3rem;
+  }
+  .container-info .date-in {
+    font-size: 3rem;
+  }
+  .container-info .date-out {
+    font-size: 3rem;
+  }
+  .container-info button {
+    background-color: var(--light-2);
+    width: 19%;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 3rem;
+  }
+  body.dark a:hover::before {
+    transform: scaleX(0);
+  }
+}
+
+@media (max-width: 425px) {
+  .cash {
+    margin-left: 240px;
+  }
+  .container {
+    margin-left: 35px;
+  }
+  .container-info {
+    margin-left: 23px;
+  }
+  .container-info button {
+    width: 23%;
+  }
+  .container-forms-loarn input {
+    margin-left: 15px;
+  }
+  .text-loan {
+    margin-left: 55px;
+  }
+  .container--input {
+    right: -5px;
+  }
+}
+
+@media (max-width: 375px) {
+  .container {
+    margin-left: 25px;
+  }
+  .cash {
+    margin-left: 190px;
+  }
+  .container .date {
+    margin-left: 8px;
+  }
+}
+
+@media (max-width: 320px) {
+  .container--nav h4 {
+    width: 95%;
+    line-height: 25px;
+  }
+  .container-login input {
+    width: 27%;
+  }
+  .container {
+    margin-left: 28px;
+    font-size: 3rem;
+  }
+  .container .date {
+    margin-left: 15px;
+    font-size: 1.5rem;
+  }
+  .cash {
+    margin-left: 175px;
+    font-size: 3rem;
+    transform: translateY(-132%);
+  }
+  .container-operations {
+    font-size: 2rem;
+  }
+  .container-forms-loarn input {
+    margin-left: 10px;
+  }
+  .container-info {
+    margin-left: 15px;
+  }
+  .container-info button {
+    width: 31%;
+  }
+}
