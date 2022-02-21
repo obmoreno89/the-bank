@@ -291,7 +291,7 @@
   }
 }
 
-@media (max-width: 412px) {
+@media (max-width: 384px) {
   .container--input input {
     margin-top: 6px;
     margin-right: -25px;
@@ -304,7 +304,7 @@
   }
 }
 
-@media (max-width: 914px) {
+@media (max-width: 854px) {
   .container--nav h4 {
     width: 40%;
   }
@@ -328,5 +328,9 @@
   }
   body.dark a:hover::before {
     transform: scaleX(0);
+  }
+  .cash {
+    font-size: 4.5rem;
+    margin-left: 645px;
   }
 }
