@@ -724,7 +724,7 @@
     width: 70%;
   }
 }
-@media (max-width: 384px) {
+@media (max-width: 375px) {
   .container--nav .menu {
     bottom: 5px;
   }
@@ -776,16 +776,18 @@
   }
 }
 
-@media (max-width: 854px) {
+@media (max-width: 667px) {
   .container-nav-menu ul {
-    margin-left: 180px;
+    margin-left: 60px;
   }
   .container-main h1 {
     margin-top: 55px;
+    margin-right: 30px;
   }
   .container-main h3 {
     text-align: center;
     line-height: 29px;
+    margin-right: 30px;
   }
   .container-features-info img {
     width: 93%;
@@ -803,8 +805,8 @@
     top: 35px;
   }
   .container-features-description .icon {
-    right: -140px;
-    top: 42px;
+    right: -132px;
+    top: 36px;
   }
   .container-features .container-features-info-img .icon-1 {
     position: relative;
@@ -816,23 +818,101 @@
   }
   .container-features .container-features-info-img .icon-1 {
     position: relative;
-    right: -218px;
-    top: 35px;
+    right: -200px;
+    top: 31px;
+    width: 10%;
   }
   .container-features-description .icon-wifi {
-    width: 12%;
-    position: relative;
-    right: -294px;
-    top: 33px;
+    width: 10%;
+    right: -265px;
+    top: 29px;
   }
   .container-operation .container-operation-info {
-    width: 85%;
+    width: 90%;
+    height: 270px;
   }
   .container-features h1 {
-    width: 75%;
+    width: 91%;
     font-size: 5rem;
+    text-align: center;
   }
   .container-operation h1 {
     font-size: 5rem;
+    width: 90%;
+    text-align: center;
+  }
+  .container-features-description h4 {
+    margin-left: 10px;
+  }
+  .container-features h3 {
+    font-size: 3rem;
+    width: 90%;
+    text-align: center;
+  }
+  .container-features-info {
+    width: 96%;
+    align-items: center;
+  }
+  .container-features .container-features-info-img {
+    width: 96%;
+  }
+  .container-second {
+    width: 96%;
+    margin-right: 5px;
+  }
+  .container-operation h3 {
+    font-size: 3rem;
+    width: 90%;
+    text-align: center;
+  }
+  .container-operation .container-button .button-1 {
+    width: 27%;
+  }
+  .container-operation .container-button .button-2 {
+    width: 27%;
+  }
+  .container-operation .container-button .button-3 {
+    width: 27%;
+  }
+  .container-operation .container-operation-info h2 {
+    margin-left: 35px;
+  }
+  .container-operation .container-operation-info p {
+    margin-left: 25px;
+  }
+  .footer-info .footer-link ul {
+    line-height: 25px;
+    flex-direction: column;
+    text-align: center;
+    margin-left: -10px;
+    margin-bottom: 13px;
+  }
+  .slider-body {
+    grid-template-columns: 1fr;
+  }
+  .slider-img {
+    width: 120px;
+    height: 120px;
+    margin-top: 30px;
+  }
+  .slider-arrow {
+    margin-top: -110px;
+  }
+  .container-modal {
+    width: 60%;
+    height: 330px;
+  }
+  .container-form {
+    width: 81%;
+    line-height: 53px;
+  }
+  .container-modal-title h2 {
+    line-height: 30px;
+  }
+  .footer-info .footer-link a:hover::before {
+    transform: scaleX(0);
+  }
+  body.dark a:hover::before {
+    transform: scaleX(0);
   }
 }

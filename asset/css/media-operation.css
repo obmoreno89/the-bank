@@ -291,7 +291,7 @@
   }
 }
 
-@media (max-width: 384px) {
+@media (max-width: 375px) {
   .container--input input {
     margin-top: 6px;
     margin-right: -25px;
@@ -302,35 +302,62 @@
   .container-info {
     margin-left: 20px;
   }
+  .container-info button {
+    width: 25%;
+  }
 }
 
-@media (max-width: 854px) {
+@media (max-width: 667px) {
   .container--nav h4 {
-    width: 40%;
+    width: 100%;
   }
   .container--input {
     margin-right: 30px;
   }
   .container-movements {
-    width: 90%;
-    margin-left: 35px;
+    width: 95%;
+    margin-left: 20px;
   }
   .container-operations {
-    width: 90%;
-    margin-left: -20px;
+    width: 85%;
+    margin-left: -2px;
   }
   .container {
-    margin-left: 45px;
+    margin-left: 30px;
+  }
+  .container-login {
+    width: 85%;
   }
   .container-info {
-    width: 95%;
-    margin-left: 25px;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
   }
   body.dark a:hover::before {
     transform: scaleX(0);
   }
   .cash {
-    font-size: 4.5rem;
-    margin-left: 645px;
+    margin-left: 450px;
+  }
+  .container-info .title {
+    font-size: 3.5rem;
+  }
+  .container-info .date-in {
+    font-size: 3.5rem;
+  }
+  .container-info .date-out {
+    font-size: 3.5rem;
+  }
+  .container-info button {
+    font-size: 3.5rem;
+  }
+  .container-info .info-closed {
+    font-size: 3.5rem;
+  }
+  .container .date {
+    margin-left: 8px;
+  }
+  .container-login input {
+    width: 29%;
   }
 }
