@@ -121,6 +121,152 @@
     font-size: 3rem;
   }
 }
+@media (max-width: 914px) {
+  .container-nav-menu ul {
+    margin-left: 60px;
+  }
+  .container-main h1 {
+    margin-top: 55px;
+    margin-right: 30px;
+  }
+  .container-main h3 {
+    text-align: center;
+    line-height: 29px;
+    margin-right: 30px;
+  }
+  .container-features-info img {
+    width: 93%;
+  }
+  .container-features-description {
+    margin-top: -45px;
+  }
+  .container-features-description p {
+    margin-left: 5px;
+  }
+  .container-features-description .icon {
+    width: 13%;
+    position: relative;
+    right: -135px;
+    top: 35px;
+  }
+  .container-features-description .icon {
+    right: -148px;
+    top: 43px;
+  }
+  .container-features .container-features-info-img .icon-1 {
+    position: relative;
+    right: -195px;
+    top: 35px;
+  }
+  .container-second {
+    width: 100%;
+  }
+  .container-features .container-features-info-img .icon-1 {
+    position: relative;
+    right: -230px;
+    top: 35px;
+    width: 10%;
+  }
+  .container-features-description .icon-wifi {
+    width: 10%;
+    right: -305px;
+    top: 33px;
+  }
+  .container-operation .container-operation-info {
+    width: 90%;
+    height: 270px;
+  }
+  .container-features h1 {
+    width: 91%;
+    font-size: 5rem;
+    text-align: center;
+  }
+  .container-operation h1 {
+    font-size: 5rem;
+    width: 90%;
+    text-align: center;
+  }
+  .container-features-description h4 {
+    margin-left: 10px;
+  }
+  .container-features h3 {
+    font-size: 3rem;
+    width: 90%;
+    text-align: center;
+  }
+  .container-features-info {
+    width: 96%;
+    align-items: center;
+  }
+  .container-features .container-features-info-img {
+    width: 96%;
+  }
+  .container-second {
+    width: 96%;
+    margin-right: 5px;
+  }
+  .container-operation h3 {
+    font-size: 3rem;
+    width: 90%;
+    text-align: center;
+  }
+  .container-operation .container-button .button-1 {
+    width: 32%;
+  }
+  .container-operation .container-button .button-2 {
+    width: 32%;
+  }
+  .container-operation .container-button .button-3 {
+    width: 32%;
+  }
+  .container-operation .container-operation-info h2 {
+    margin-left: 35px;
+  }
+  .container-operation .container-operation-info p {
+    margin-left: 25px;
+  }
+  .footer-info .footer-link ul {
+    line-height: 25px;
+    flex-direction: column;
+    text-align: center;
+    margin-left: -10px;
+    margin-bottom: 13px;
+  }
+  .slider-body {
+    grid-template-columns: 1fr;
+  }
+  .slider-img {
+    width: 120px;
+    height: 120px;
+    margin-top: 30px;
+  }
+  .slider-arrow {
+    margin-top: -110px;
+  }
+  .container-modal {
+    width: 60%;
+    height: 330px;
+  }
+  .container-form {
+    width: 81%;
+    line-height: 53px;
+  }
+  .container-modal-title h2 {
+    line-height: 30px;
+  }
+  .footer-info .footer-link a:hover::before {
+    transform: scaleX(0);
+  }
+  body.dark a:hover::before {
+    transform: scaleX(0);
+  }
+  .footer .footer-title button {
+    width: 30%;
+  }
+  .footer-info {
+    height: 348px;
+  }
+}
 
 @media (max-width: 768px) {
   .container-nav-menu a {
@@ -596,6 +742,67 @@
     width: 50%;
   }
 }
+@media (max-width: 412px) {
+  .container--nav .menu {
+    bottom: 5px;
+  }
+  .container-nav-menu ul {
+    min-width: 1px;
+  }
+  .container--input input {
+    margin-top: 4px;
+  }
+  .container-main {
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container-main h1 {
+    width: 100%;
+  }
+  .container-main h3 {
+    width: 100%;
+  }
+  .img-operation {
+    margin-left: 25px;
+    margin-top: 15px;
+  }
+  .container-features-description .icon {
+    top: 35px;
+    right: -125px;
+  }
+  .container-features .container-features-info-img .icon-1 {
+    right: -190px;
+  }
+  .container-features-description h4 {
+    margin-left: 1px;
+  }
+  .container-features-description p {
+    margin-left: 1px;
+    width: 100%;
+  }
+  .container-features-info img {
+    width: 100%;
+  }
+  .container-second {
+    width: 100%;
+  }
+  .container-features-description .icon-wifi {
+    right: -258px;
+    top: 29px;
+  }
+  .footer-info .footer-link .footer-text p {
+    line-height: 18px;
+  }
+  .container-modal {
+    height: 51%;
+  }
+  .container-modal-title h2 {
+    width: 90%;
+  }
+}
+
 @media (max-width: 375px) {
   .container--nav .menu {
     bottom: 6px;
@@ -722,199 +929,5 @@
   }
   .container-button-form button {
     width: 70%;
-  }
-}
-@media (max-width: 412px) {
-  .container--nav .menu {
-    bottom: 5px;
-  }
-  .container-nav-menu ul {
-    min-width: 1px;
-  }
-  .container--input input {
-    margin-top: 4px;
-  }
-  .container-main {
-    margin-left: 25px;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .container-main h1 {
-    width: 100%;
-  }
-  .container-main h3 {
-    width: 100%;
-  }
-  .img-operation {
-    margin-left: 25px;
-    margin-top: 15px;
-  }
-  .container-features-description .icon {
-    top: 35px;
-    right: -125px;
-  }
-  .container-features .container-features-info-img .icon-1 {
-    right: -190px;
-  }
-  .container-features-description h4 {
-    margin-left: 1px;
-  }
-  .container-features-description p {
-    margin-left: 1px;
-  }
-  .container-features-info img {
-    width: 100%;
-  }
-  .container-second {
-    width: 100%;
-  }
-  .container-features-description .icon-wifi {
-    right: -258px;
-    top: 29px;
-  }
-  .footer-info .footer-link .footer-text p {
-    line-height: 18px;
-  }
-}
-
-@media (max-width: 914px) {
-  .container-nav-menu ul {
-    margin-left: 60px;
-  }
-  .container-main h1 {
-    margin-top: 55px;
-    margin-right: 30px;
-  }
-  .container-main h3 {
-    text-align: center;
-    line-height: 29px;
-    margin-right: 30px;
-  }
-  .container-features-info img {
-    width: 93%;
-  }
-  .container-features-description {
-    margin-top: -45px;
-  }
-  .container-features-description p {
-    margin-left: 5px;
-  }
-  .container-features-description .icon {
-    width: 13%;
-    position: relative;
-    right: -135px;
-    top: 35px;
-  }
-  .container-features-description .icon {
-    right: -132px;
-    top: 36px;
-  }
-  .container-features .container-features-info-img .icon-1 {
-    position: relative;
-    right: -195px;
-    top: 35px;
-  }
-  .container-second {
-    width: 100%;
-  }
-  .container-features .container-features-info-img .icon-1 {
-    position: relative;
-    right: -200px;
-    top: 31px;
-    width: 10%;
-  }
-  .container-features-description .icon-wifi {
-    width: 10%;
-    right: -265px;
-    top: 29px;
-  }
-  .container-operation .container-operation-info {
-    width: 90%;
-    height: 270px;
-  }
-  .container-features h1 {
-    width: 91%;
-    font-size: 5rem;
-    text-align: center;
-  }
-  .container-operation h1 {
-    font-size: 5rem;
-    width: 90%;
-    text-align: center;
-  }
-  .container-features-description h4 {
-    margin-left: 10px;
-  }
-  .container-features h3 {
-    font-size: 3rem;
-    width: 90%;
-    text-align: center;
-  }
-  .container-features-info {
-    width: 96%;
-    align-items: center;
-  }
-  .container-features .container-features-info-img {
-    width: 96%;
-  }
-  .container-second {
-    width: 96%;
-    margin-right: 5px;
-  }
-  .container-operation h3 {
-    font-size: 3rem;
-    width: 90%;
-    text-align: center;
-  }
-  .container-operation .container-button .button-1 {
-    width: 27%;
-  }
-  .container-operation .container-button .button-2 {
-    width: 27%;
-  }
-  .container-operation .container-button .button-3 {
-    width: 27%;
-  }
-  .container-operation .container-operation-info h2 {
-    margin-left: 35px;
-  }
-  .container-operation .container-operation-info p {
-    margin-left: 25px;
-  }
-  .footer-info .footer-link ul {
-    line-height: 25px;
-    flex-direction: column;
-    text-align: center;
-    margin-left: -10px;
-    margin-bottom: 13px;
-  }
-  .slider-body {
-    grid-template-columns: 1fr;
-  }
-  .slider-img {
-    width: 120px;
-    height: 120px;
-    margin-top: 30px;
-  }
-  .slider-arrow {
-    margin-top: -110px;
-  }
-  .container-modal {
-    width: 60%;
-    height: 330px;
-  }
-  .container-form {
-    width: 81%;
-    line-height: 53px;
-  }
-  .container-modal-title h2 {
-    line-height: 30px;
-  }
-  .footer-info .footer-link a:hover::before {
-    transform: scaleX(0);
-  }
-  body.dark a:hover::before {
-    transform: scaleX(0);
   }
 }
