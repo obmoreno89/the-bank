@@ -266,6 +266,16 @@
   .footer-info {
     height: 348px;
   }
+  .container-features {
+    height: 1355px;
+    margin-top: 170px;
+  }
+  .container-operation .container-button {
+    justify-content: space-between;
+  }
+  .container-operation {
+    height: 600px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -328,13 +338,13 @@
     top: 35px;
   }
   .container-second {
-    width: 100%;
-    margin-right: -20px;
+    width: 88%;
+    margin-right: 29px;
   }
   .container-features .container-features-info-img .icon-1 {
     position: relative;
-    right: -195px;
-    top: 35px;
+    right: -200px;
+    top: 30px;
   }
   .container-features-description .icon-wifi {
     width: 12%;
@@ -747,7 +757,7 @@
     bottom: 5px;
   }
   .container-nav-menu ul {
-    min-width: 1px;
+    width: 10px;
   }
   .container--input input {
     margin-top: 4px;
