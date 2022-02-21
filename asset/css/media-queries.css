@@ -724,7 +724,7 @@
     width: 70%;
   }
 }
-@media (max-width: 380px) {
+@media (max-width: 412px) {
   .container--nav .menu {
     bottom: 5px;
   }
@@ -762,7 +762,6 @@
   }
   .container-features-description p {
     margin-left: 1px;
-    width: 100%;
   }
   .container-features-info img {
     width: 100%;
@@ -774,9 +773,12 @@
     right: -258px;
     top: 29px;
   }
+  .footer-info .footer-link .footer-text p {
+    line-height: 18px;
+  }
 }
 
-@media (max-width: 667px) {
+@media (max-width: 914px) {
   .container-nav-menu ul {
     margin-left: 60px;
   }
