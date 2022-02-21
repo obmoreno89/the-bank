@@ -349,8 +349,8 @@
   .container-features-description .icon-wifi {
     width: 12%;
     position: relative;
-    right: -260px;
-    top: 30px;
+    right: -269px;
+    top: 28px;
   }
   .container-features-description p {
     margin-left: 5px;
@@ -367,6 +367,8 @@
   .container-operation .container-button {
     margin-top: 55px;
     width: 90%;
+    display: flex;
+    justify-content: space-evenly;
   }
   .container-operation .container-button .button-1 {
     font-size: 2rem;
@@ -548,7 +550,7 @@
   }
   .container-features-description p {
     margin-left: 16px;
-    width: 90%;
+    width: 95%;
   }
   .container-features-description h4 {
     font-size: 3.5rem;
@@ -758,6 +760,7 @@
   }
   .container-nav-menu ul {
     width: 10px;
+    margin-right: -15px;
   }
   .container--input input {
     margin-top: 4px;
@@ -806,7 +809,7 @@
     line-height: 18px;
   }
   .container-modal {
-    height: 51%;
+    height: 55%;
   }
   .container-modal-title h2 {
     width: 90%;

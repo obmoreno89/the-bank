@@ -112,7 +112,7 @@
 
 @media (max-width: 768px) {
   .container--nav h4 {
-    width: 58%;
+    width: 100%;
     margin-left: 7px;
   }
   .container-login input {
